@@ -3,7 +3,7 @@
  */
 
 allprojects {
-    group = 'com.ruoyi'
+    group = 'com.manage'
     version = '3.4.0'
 }
 

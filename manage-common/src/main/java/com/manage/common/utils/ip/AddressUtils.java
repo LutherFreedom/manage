@@ -3,7 +3,7 @@ package com.manage.common.utils.ip;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.alibaba.fastjson.JSONObject;
-import com.manage.common.config.RuoYiConfig;
+import com.manage.common.config.ManageConfig;
 import com.manage.common.constant.Constants;
 import com.manage.common.utils.StringUtils;
 import com.manage.common.utils.http.HttpUtils;
@@ -31,7 +31,7 @@ public class AddressUtils
         {
             return "内网IP";
         }
-        if (RuoYiConfig.isAddressEnabled())
+        if (ManageConfig.isAddressEnabled())
         {
             try
             {

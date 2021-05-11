@@ -3,7 +3,7 @@ package com.manage.common.constant;
 /**
  * 代码生成通用常量
  * 
- * @author ruoyi
+ * @author lvp
  */
 public class GenConstants
 {
